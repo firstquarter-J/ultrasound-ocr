@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Serena MCP - local cache and memories
+.serena/
+
+# Claude Code - local settings
+.claude/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/sample_images/raw/*.png
+data/sample_images/raw/*.jpg
+data/sample_images/raw/*.jpeg
+data/sample_images/raw/*.tiff
+data/outputs/**/*.json
+data/outputs/**/*.png
+data/outputs/**/*.jpg
+
+# Keep directory structure but ignore contents
+!data/sample_images/raw/.gitkeep
+!data/outputs/json/.gitkeep
+!data/outputs/images/.gitkeep
+
+# Assets - 초음파 샘플 이미지 (개인정보 포함)
+assets/
+
+# EasyOCR model cache
+.EasyOCR/
+*.pth
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Project specific
+experiments/
+archived/
+old/
+backup/
